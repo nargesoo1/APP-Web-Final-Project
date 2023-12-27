@@ -181,4 +181,11 @@ button:hover{
     transition: 1s;
    text-transform: capitalize;  
 }
+footer{
+    background-color: rgb(67, 142, 240);
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    right: 25px;
+}
 
