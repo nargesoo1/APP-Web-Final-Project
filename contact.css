@@ -2,7 +2,7 @@ body{
     background-color:rgb(248, 228, 228);
     align-items: center;
     box-sizing:border-box;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .header {
@@ -16,7 +16,8 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: rgb(250, 214, 214);
+    background-color: rgb(255, 161, 161);
+
 }
 .nav-bar a{
     margin-right: 30px;
@@ -87,7 +88,6 @@ h1{
 }
 #sticker{
     width: 100px;
-    padding-top: px;
     padding-left: 315px;
     position: absolute;
     bottom: 210px;
