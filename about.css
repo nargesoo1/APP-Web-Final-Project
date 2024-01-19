@@ -2,7 +2,7 @@ body{
     background-color:rgb(248, 228, 228);
     align-items: center;
     box-sizing:border-box;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .header {
@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: rgb(250, 214, 214);
+    background-color: rgb(255, 161, 161);
 }
 .nav-bar a{
     margin-right: 30px;
@@ -66,35 +66,41 @@ p{
 text-align: center;
 }
 .manager{
-    border-radius: 600px 600px 600px 600px ;
+   /* border-radius: 600px 600px 600px 600px ;*/
     width: 200px;
     height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
     position: absolute;
     top: 530px;
     box-shadow: 3px 3px 3px blue;
 }
- 
 
 .manager1{
     border-radius: 600px 600px 600px 600px ;
     width: 200px;
     height: 200px;
     position: absolute;
-    margin-top: 35px;
     box-shadow: 3px 3px 3px blue;
+    margin-top: 40px;
+
 }
+.pic:hover .images{
+    visibility: visible;
+}
+
 .manager2{
     border-radius: 600px 600px 600px 600px ;
     width: 200px;
     height: 200px;
     position: absolute;
-    margin-top: 70px;
+    margin-top: 61px;
     box-shadow: 3px 3px 3px blue;
 }
 .p{
 position: relative;
-margin-top: 80px;
-padding-left:210px ;
+margin-top: 70px;
+padding-left:250px ;
 text-align: justify;
 text-shadow: 1px 1px 1px rgb(72, 149, 236);
 }
@@ -112,13 +118,13 @@ text-shadow: 1px 1px 1px rgb(72, 149, 236);
     text-align: justify;
     text-shadow: 1px 1px 1px  rgb(72, 149, 236);
 }
-.TOEFL{
+.TOEFL{  
     border: 3px solid blue;
     border-radius: 20px 20px 20px 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 10px;
     display: inline-block;
     margin-left: 100px;
     text-align: justify;
@@ -143,7 +149,6 @@ h1{
 }
 #sticker{
     width: 100px;
-    padding-top: px;
     padding-left: 315px;
     position: absolute;
     bottom: 210px;
@@ -171,4 +176,5 @@ footer{
     bottom: 0;
     height: 40px;
     text-align: center;
+    padding-top: 15px;
 }
