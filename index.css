@@ -2,9 +2,12 @@ body{
     background-color:rgb(248, 228, 228);
     align-items: center;
     box-sizing:border-box;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  
 
 }
+
+    
 .header {
     position: fixed;
     top: 0px;
@@ -16,7 +19,8 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: rgb(250, 214, 214);
+    background-color: rgb(255, 161, 161);
+
 }
 .nav-bar a{
     margin-right: 30px;
@@ -97,7 +101,6 @@ h1{
 }
 #sticker{
     width: 100px;
-    padding-top: px;
     padding-left: 315px;
     position: absolute;
     bottom: 210px;
@@ -110,7 +113,7 @@ h2{
      bottom: 220px;
      font-size: 20px;
      padding-left: 45px;
-     text-justify: center;
+     
      text-shadow: 2px 2px 3px rgb(72, 149, 236);
 }
 h2.text1:hover{
@@ -188,4 +191,3 @@ footer{
     text-align: center;
     right: 25px;
 }
-
